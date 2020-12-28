@@ -1,13 +1,13 @@
-@hakibase/cli
+@hakicloud/cli
 =============
 
-Hakibase Cli
+hakicloud Cli
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/@hakibase/cli.svg)](https://npmjs.org/package/@hakibase/cli)
-[![CircleCI](https://circleci.com/gh/hakibase/hakibase-cli/tree/master.svg?style=shield)](https://circleci.com/gh/hakibase/hakibase-cli/tree/master)
-[![Downloads/week](https://img.shields.io/npm/dw/@hakibase/cli.svg)](https://npmjs.org/package/@hakibase/cli)
-[![License](https://img.shields.io/npm/l/@hakibase/cli.svg)](https://github.com/hakibase/hakibase-cli/blob/master/package.json)
+[![Version](https://img.shields.io/npm/v/@hakicloud/cli.svg)](https://npmjs.org/package/@hakicloud/cli)
+[![CircleCI](https://circleci.com/gh/hakicloud/hakicloud-cli/tree/master.svg?style=shield)](https://circleci.com/gh/hakicloud/hakicloud-cli/tree/master)
+[![Downloads/week](https://img.shields.io/npm/dw/@hakicloud/cli.svg)](https://npmjs.org/package/@hakicloud/cli)
+[![License](https://img.shields.io/npm/l/@hakicloud/cli.svg)](https://github.com/hakicloud/hakicloud-cli/blob/master/package.json)
 
 <!-- toc -->
 * [Usage](#usage)
@@ -16,29 +16,29 @@ Hakibase Cli
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g @hakibase/cli
-$ hakibase COMMAND
+$ npm install -g @hakicloud/cli
+$ hakicloud COMMAND
 running command...
-$ hakibase (-v|--version|version)
-@hakibase/cli/0.0.0 darwin-x64 node-v14.12.0
-$ hakibase --help [COMMAND]
+$ hakicloud (-v|--version|version)
+@hakicloud/cli/0.0.0 darwin-x64 node-v14.12.0
+$ hakicloud --help [COMMAND]
 USAGE
-  $ hakibase COMMAND
+  $ hakicloud COMMAND
 ...
 ```
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`hakibase hello [FILE]`](#hakibase-hello-file)
-* [`hakibase help [COMMAND]`](#hakibase-help-command)
+* [`hakicloud hello [FILE]`](#hakicloud-hello-file)
+* [`hakicloud help [COMMAND]`](#hakicloud-help-command)
 
-## `hakibase hello [FILE]`
+## `hakicloud hello [FILE]`
 
 describe the command here
 
 ```
 USAGE
-  $ hakibase hello [FILE]
+  $ hakicloud hello [FILE]
 
 OPTIONS
   -f, --force
@@ -46,19 +46,19 @@ OPTIONS
   -n, --name=name  name to print
 
 EXAMPLE
-  $ hakibase hello
+  $ hakicloud hello
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/hakibase/hakibase-cli/blob/v0.0.0/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/hakicloud/hakicloud-cli/blob/v0.0.0/src/commands/hello.ts)_
 
-## `hakibase help [COMMAND]`
+## `hakicloud help [COMMAND]`
 
-display help for hakibase
+display help for hakicloud
 
 ```
 USAGE
-  $ hakibase help [COMMAND]
+  $ hakicloud help [COMMAND]
 
 ARGUMENTS
   COMMAND  command to show help for
