@@ -13,8 +13,12 @@
     "@oclif/plugin-help": "^3.2.1",
     "@vercel/ncc": "^0.26.1",
     "base-64": "^1.0.0",
+    "chalk": "^4.1.0",
+    "cli-ux": "^5.5.1",
+    "comment-parser": "^0.7.6",
     "filesize": "^6.1.0",
     "fs-extra": "^9.0.1",
+    "log-symbols": "^4.0.0",
     "node-fetch": "^2.6.1",
     "tslib": "^1.14.1"
   },
