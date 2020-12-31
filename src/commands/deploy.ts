@@ -4,8 +4,8 @@ import * as path from 'path'
 import fetch from 'node-fetch'
 import * as filesize from 'filesize'
 import {API_URL} from '../constants'
-import {encode} from 'base-64'
 import cli from 'cli-ux'
+import { scan } from '../utils/check-native'
 const parse = require('comment-parser')
 const chalk = require('chalk')
 const logSymbols = require('log-symbols')
@@ -107,8 +107,9 @@ export default class Deploy extends Command {
   }
 
   async run() {
-    cli.action.start('Starting')
     const dir = process.cwd()
+    const nm = dir + '/node_modules'
+    scan(nm)
     const config = await this.getProjectConfig(dir)
     const functions = await fs.readdir(dir + '/src/functions')
     for await (const file of functions) {
